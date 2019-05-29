@@ -1,0 +1,8 @@
+name: SimpleQuestions
+main: me.Albert.SimpleQuestions.Main
+version: 1.0.0
+commands:
+  sqreload:
+        description: Reload Plugin Config
+        permission: sq.reload
+    

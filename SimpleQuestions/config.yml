@@ -1,0 +1,33 @@
+#the message prefix
+prefix: "&7[&bQuestion&7]: &e" 
+
+#ask question delay,in seconds
+delay: 30
+
+#question timeout delay,in seconds
+timeout: 50
+
+#reward
+Rewards:
+  money:
+    commands:
+    - eco give %player% 500
+    chance: 100
+  points:
+    commands:
+    - p give %player% 50
+    - shout Wow! %player% won 50 points in the chat game!
+    chance: 50
+
+#messages
+correct: "&bThe winner is %player%!"
+nobody_answer: "&cBetter luck next time! The Answer is: &6 %answer%"
+
+#Question list
+Questions:
+    x-ray:
+        ask: "Who discovered X-ray?"
+        answer: "Roentgen"
+    dinner:
+        ask: "How many characters are there in the painting &b&o&mThe last Supper?"
+        answer: "13"
